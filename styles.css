@@ -278,8 +278,8 @@ footer {
 @media (min-width: 769px) {
     section.contact-section,
     section:last-of-type {
-        max-width: 800px;
-        width: 800px;
+        max-width: 1000px;
+        width: 1000px;
         margin: 40px auto;
         padding: 40px 30px;
         box-sizing: border-box;

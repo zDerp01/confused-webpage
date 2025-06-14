@@ -275,6 +275,19 @@ footer {
     user-select: none;
 }
 
+/* >>> ADDED THIS TO CONTAIN GIF/IMAGE INSIDE SECTION <<< */
+section img,
+section video,
+section iframe {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
 @media (min-width: 769px) {
     section.contact-section,
     section:last-of-type {

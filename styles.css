@@ -209,6 +209,25 @@ ul li:hover {
         0 0 30px #1ce715;
 }
 
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 form {
     display: flex;
     flex-direction: column;
